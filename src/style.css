@@ -1,0 +1,137 @@
+body {
+  background-color: rgb(63, 60, 60);
+  font-family: nunito;
+}
+
+.geral {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.container {
+  width: 300px;
+  height: 450px;
+  background-color: rgb(49, 49, 47);
+  margin: 20px 40px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.dropzone {
+  /* width: 260px;
+  height: 80px; */
+  width: 90%;
+  height: 10%;
+  background-color: rgb(102, 99, 99);
+  border-radius: 8px;
+  margin: 10% 5%;
+  padding-top: 10px;
+  transition: 0.4s;
+}
+
+.container h3 {
+  color: white;
+  margin: 20px 20px;
+  float: left;
+  letter-spacing: 2px;
+}
+
+.container hr {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(155, 91, 19);
+  border: none;
+}
+
+.status {
+  width: 50px;
+  height: 8px;
+  background-color: red;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.dropzone p {
+  font-size: 12px;
+  color: white;
+  line-height: bold;
+  padding-top: 20px;
+  width: 100px;
+  border-bottom: 2px solid rgb(180, 112, 34);
+}
+
+.geral-blur {
+  background-color: rgba(82, 15, 15, 0.067);
+}
+
+.is-dragging {
+  cursor: move;
+  opacity: 0.4;
+}
+
+.over {
+  background-color: rgba(54, 21, 129, 0.2);
+}
+
+.legend {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 22px;
+}
+
+.legend-red {
+  background: red;
+}
+
+.legend-yellow {
+  background: yellow;
+}
+
+.legend-green {
+  background: green;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.texto {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 250px;
+  line-height: 2px;
+  border-radius: 5px;
+  font-family: nunito;
+}
+
+.btn {
+  width: 10%;
+  height: 8%;
+  border-radius: 10px;
+  background-color: rgb(47, 38, 54);
+  color: white;
+  font-family: nunito;
+  font-weight: bold;
+}

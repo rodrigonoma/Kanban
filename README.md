@@ -1,2 +1,0 @@
-# Kanban
-Created with CodeSandbox
